@@ -1,0 +1,42 @@
+id,nome,categoria,preco
+1,Notebook 2,Eletrônicos,3500.0
+2,Cadeira Gamer,Móveis,1200.0
+3,Garrafa Térmica,Utensílios,95.0
+4,Teclado Mecânico,Periféricos,450.0
+5,Mouse Sem Fio,Periféricos,180.0
+6,Smartphone,Eletrônicos,2500.0
+7,Fone de Ouvido,Eletrônicos,320.0
+8,"Monitor 24""",Eletrônicos,900.0
+9,Impressora,Eletrônicos,650.0
+10,Luminária de Mesa,Iluminação,120.0
+11,Cafeteira,Eletrodomésticos,480.0
+12,Aspirador de Pó,Eletrodomésticos,700.0
+13,Liquidificador,Eletrodomésticos,220.0
+14,Ventilador,Eletrodomésticos,160.0
+15,Micro-ondas,Eletrodomésticos,780.0
+16,Sofá 3 Lugares,Móveis,2900.0
+17,Mesa de Escritório,Móveis,850.0
+18,Estante de Livros,Móveis,430.0
+19,Tapete Decorativo,Decoração,250.0
+20,Cortina Blackout,Decoração,180.0
+21,Relógio Inteligente,Eletrônicos,800.0
+22,Caixa de Som Bluetooth,Eletrônicos,350.0
+23,Carregador Portátil,Eletrônicos,140.0
+24,Câmera de Segurança,Segurança,600.0
+25,"Smart TV 50""",Eletrônicos,2800.0
+26,Air Fryer,Eletrodomésticos,600.0
+27,Panela de Pressão,Utensílios,210.0
+28,Jogo de Talheres,Utensílios,130.0
+29,Toalha de Banho,Utensílios,80.0
+30,Almofada Decorativa,Decoração,60.0
+31,Headset com Microfone,Periféricos,290.0
+32,Teclado sem Fio,Periféricos,230.0
+33,Cadeira de Escritório,Móveis,750.0
+34,Suporte para Monitor,Acessórios,110.0
+35,Carregador de Notebook,Acessórios,160.0
+36,Lava-Louças,Eletrodomésticos,2100.0
+37,Guarda-Roupa 6 Portas,Móveis,2400.0
+38,Abajur de Cabeceira,Iluminação,90.0
+39,Jogo de Pratos,Utensílios,150.0
+40,Travesseiro Antialérgico,Decoração,100.0
+41,Mesa Vermelha,Móveis,3500.0

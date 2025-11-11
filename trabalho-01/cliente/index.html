@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-sky-50 flex flex-col justify-center">
+    <h1 class="text-3xl font-bold p-4 bg-blue-900 text-white text-center">Lojinha da esquina</h1>
+    <div class="mt-6 w-5/6 mx-auto p-4 bg-white rounded-lg shadow-lg">
+        <form name="formulario-produtos">
+            <div class="flex flex-col md:flex-row md:space-x-4">
+                <input type="hidden" id="produto-id">
+                <input type="text" id="nome-produto" placeholder="Nome do produto"
+                    class="border border-gray-300 rounded-lg p-2 mb-4 md:mb-0 flex-1">
+                <input type="text" id="categoria-produto" placeholder="Categoria do produto"
+                    class="border border-gray-300 rounded-lg p-2 mb-4 md:mb-0 flex-1">
+                <input type="number" id="preco-produto" placeholder="Preço do produto"
+                    class="border border-gray-300 rounded-lg p-2 mb-4 md:mb-0 flex-1">
+                <button onclick="salvarProduto()" type="button"
+                    class="bg-blue-900 text-white rounded-lg p-2 hover:bg-blue-800 cursor-pointer">Salvar
+                    Produto</button>
+                <button class="bg-gray-300 text-gray-900 rounded-lg p-2 hover:bg-gray-400 cursor-pointer"
+                    type="reset">Limpar campos</button>
+            </div>
+        </form>
+    </div>
+    <div class="mt-6 w-5/6 mx-auto p-4 bg-white rounded-lg shadow-lg flex flex-wrap gap-4 justify-center flex-col justify-center items-center">
+        <div class="flex gap-2">
+            <button type="button" onclick="maiorValor()" class="bg-green-900 text-white rounded-lg p-2 cursor-pointer">Produtos de maior valor</button>
+            <button type="button" onclick="menorValor()" class="bg-green-900 text-white rounded-lg p-2 cursor-pointer">Produtos de menor valor</button>
+            <button type="button" onclick="media()" class="bg-green-900 text-white rounded-lg p-2 cursor-pointer">Média dos preços</button>
+            <button type="button" onclick="acimaMedia()" class="bg-green-900 text-white rounded-lg p-2 cursor-pointer">Produtos acima da média</button>
+            <button type="button" onclick="abaixoMedia()" class="bg-green-900 text-white rounded-lg p-2 cursor-pointer">Produtos abaixo da média</button>
+            <button type="button" onclick="limparResultado()" class="bg-green-900 text-white rounded-lg p-2 cursor-pointer">Limpar Resultado</button>
+        </div>
+        <div id="resultado"></div>
+    </div>
+    <table class="table-auto w-5/6 border border-sky-100 mt-6 mx-auto rounded-lg shadow-lg text-center bg-white">
+        <thead class="bg-blue-900 text-white">
+            <tr>
+                <th class="p-4">Nome</th>
+                <th class="p-4">Categoria</th>
+                <th class="p-4">Preço</th>
+                <th class="p-4">Ações</th>
+            </tr>
+        </thead>
+        <tbody id="produtos-lista">
+
+        </tbody>
+    </table>
+</body>
+<script src="script.js"></script>
+
+</html>
